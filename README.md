@@ -2,17 +2,17 @@
 
 ## TimeLine
 
-# 24th August
+### 24th August
 - 6 am - 6:20 am : Read the problem statement
 - 6:20 am - 7:00 am : Searched for Django learning resources, read some django docs, setup the project, installed and run the prject, admin
 
 - 7:00 pm - 8:15 pm : Read the problem statement again, understood the problem statement, read about few concepts through models, views, etc following the guide - "https://docs.djangoproject.com/en/3.2/intro/tutorial01/"
 - 8 pm - 8:45/9:00 pm : Ran endpoints of credit_card, order, payment, etc. Tried to understand the flow of the code.
 
-# 25th August
+### 25th August
 - 6:45/7 am - 8:00 am : Created EBT model, serializer, views, url. Ran the endpoints of EBT.
 
-# 26th August
+### 26th August
 - 7:00 am - 8:00 am : Read about contentType, GenericForiegnKey and relationships between tables, tried to create payment_method to include the two types of models only.
 - 9:00 am - 10:30 am : Tried to create a new model for payment_method but it was not working so decided to create a new field for choosing the payment method between credit card and ebt card and use GenericForiegnKey to store the id of the model. Formed a simple logic to use it.
 - 10:45 - 11:45/12:00 am : Created a new field to choose payment option in Payment model, edited the serializer to create a function for JSON serialize the payment method object in Payment model at time of returning data, created a new view for Payment model. Ran the endpoints of Payment model.

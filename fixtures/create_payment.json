@@ -1,0 +1,7 @@
+{
+    "payment_method": 1, 
+    "payment_option": "credit_card/ebt_card",
+    "order": 1,
+    "amount": "20.45",
+    "description": "Paying the Order with one Payment"
+}
